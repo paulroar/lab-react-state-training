@@ -1,11 +1,11 @@
 import { useState } from "react";
-import emptyDice from "C:/Users/paulr/Desktop/IronHack/lab-react-state-training/src/assets/images/emptyDice.png";
-import dice1 from "../src/assets/images/dice1.png";
-import dice2 from "../src/assets/images/dice2.png";
-import dice3 from "../src/assets/images/dice3.png";
-import dice4 from "../src/assets/images/dice4.png";
-import dice5 from "../src/assets/images/dice5.png";
-import dice6 from "../src/assets/images/dice6.png";
+import emptyDice from "../../images/emptyDice.png";
+import dice1 from "../../images/dice1.png";
+import dice2 from "../../images/dice2.png";
+import dice3 from "../../images/dice3.png";
+import dice4 from "../../images/dice4.png";
+import dice5 from "../../images/dice5.png";
+import dice6 from "../../images/dice6.png";
 
 const diceImages = [dice1, dice2, dice3, dice4, dice5, dice6];
 
