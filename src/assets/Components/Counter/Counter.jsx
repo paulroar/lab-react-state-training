@@ -6,9 +6,9 @@ function Counter() {
   return (
     <>
       <div className="counter">
-        <button onClick={() => setCount((count) => count - 1)}></button>
-         {count} Likes
-        <button onClick={() => setCount((count) => count + 1)}></button>
+      <button onClick={() => setCount(count > 0 ? count - 1 : 0)}>-</button>
+      {count} Likes
+      <button onClick={() => setCount(count + 1)}>+</button>
       </div>
     </>
   );
